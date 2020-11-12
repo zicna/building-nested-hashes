@@ -148,7 +148,6 @@ epic_tragedy = {
 
 Now we're ready to fill out the empty hashes that constitute the values for the `:patriarch`, `:matriarch` and `:hero`/`:heroine` keys, nested inside the family name keys of our epic `epic_tragedy hash`.
 
-
 ### Code Along Challenge III: Character Attributes
 
 According to the diagram that we saw at the very beginning of this exercise, each character has a set of attributes. Matriarch and Patriarchs have a name and an age. The hero and heroine each have a name, age and a status.
@@ -265,7 +264,7 @@ epic_tragedy = {
 
 ```
 
-## Bonus: Manipulating the Hash
+## Code Along Challenge V: Manipulating the Hash
 
 In the previous lesson we learned that you can access a value in a hash like this:
 
@@ -316,8 +315,6 @@ puts epic_tragedy
 }
 ```
 
-### Bonus Code Along Challenge
+### Final Challenge
 
-In `lib/bonus.rb` you'll see our completed `epic_tragedy hash`. We're coming to the end of the epic tragedy of Romeo and Juliet. At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the status of our hero Romeo and our heroine Juliet from "alive" to "dead". These are bonus and if you're feeling comfortable with Hashes, feel free to move forward. Also, to enable these tests make sure to remove the `x` in front of the `it` block in spec/bonus_spec.rb.
-
-
+In `lib/fifth_challenge.rb` you'll see our completed `epic_tragedy hash`. We're coming to the end of the epic tragedy of Romeo and Juliet. At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the status of our hero Romeo and our heroine Juliet from "alive" to "dead".

@@ -1,4 +1,7 @@
-def bonus
+require "pry"
+
+def fifth_challenge
+
   epic_tragedy = {
    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
@@ -22,8 +25,14 @@ def bonus
 
   #code your solution here:
 
-  
+  epic_tragedy.each do | fam, members |
+   members.each do | member, values |
+      if member == :hero || member == :heroine
+         epic_tragedy[fam][member][:status] = "dead"
+      end
+   end
+end
 
-  #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
+  #Don't touch the following line! The method must return our newly modified epic tragedy hash
   epic_tragedy
 end
