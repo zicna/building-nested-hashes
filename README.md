@@ -371,6 +371,6 @@ puts epic_tragedy
 
 In `lib/fifth_challenge.rb` you'll see our completed `epic_tragedy hash`. We're
 coming to the end of the epic tragedy of Romeo and Juliet. At this point in the
-story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above
-method to change the status of our hero Romeo and our heroine Juliet from
-"alive" to "dead".
+story, Romeo and Juliet are &mdash; as in every good tragedy &mdash; quite dead.
+Use the above method to change the status of our hero Romeo and our heroine
+Juliet from "alive" to "dead".
