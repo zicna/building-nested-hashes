@@ -310,7 +310,7 @@ epic_tragedy = {
 
 ```
 
-## Code Along Challenge V: Manipulating the Hash
+### Code Along Challenge V: Manipulating the Hash
 
 In the previous lesson we learned that you can access a value in a hash like
 this:
@@ -367,7 +367,7 @@ puts epic_tragedy
 }
 ```
 
-### Final Challenge
+#### Final Challenge
 
 In `lib/fifth_challenge.rb` you'll see our completed `epic_tragedy hash`. We're
 coming to the end of the epic tragedy of Romeo and Juliet. At this point in the
