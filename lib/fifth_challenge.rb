@@ -25,13 +25,6 @@ def fifth_challenge
 
   #code your solution here:
 
-  epic_tragedy.each do | fam, members |
-   members.each do | member, values |
-      if member == :hero || member == :heroine
-         epic_tragedy[fam][member][:status] = "dead"
-      end
-   end
-end
 
   #Don't touch the following line! The method must return our newly modified epic tragedy hash
   epic_tragedy
